@@ -12,4 +12,8 @@ public class ProductSpecifications {
     public static Specification<Product> hasPriceGreaterThan(double price){
         return (root, query, criteriaBuilder) -> criteriaBuilder.equal(root.get("price"), price);
     }
+
+    public void getAll(){
+
+    }
 }
